@@ -1,0 +1,76 @@
+.pi-chart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 0;
+
+  .chart-container {
+    display: flex;
+    flex-direction: column;
+
+    .midd-container {
+      display: flex;
+
+      .y-axis {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 26px;
+        padding: 10px 0px;
+        color: #c4cac7;
+        font-size: 14px;
+
+        &.left {
+          margin-right: 10px;
+        }
+
+        &.right {
+          margin-left: 10px;
+        }
+      }
+
+      .chart {
+        position: relative;
+        background: url('~@/assets/images/pi/pi-bg.png');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+      }
+    }
+
+    .x-axis {
+      display: flex;
+      justify-content: space-between;
+      color: #656565;
+      font-size: 14px;
+
+      &.top {
+        margin-bottom: 10px;
+      }
+
+      &.bottom {
+        margin-top: 10px;
+      }
+    }
+  }
+
+  .legend-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    color: #656565;
+    font-size: 14px;
+
+    .dot {
+      width: 12px;
+      height: 12px;
+      border-radius: 12px;
+    }
+
+    .text {
+      margin: 0 50px 0 20px;
+    }
+  }
+}

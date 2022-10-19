@@ -1,0 +1,52 @@
+.tip {
+  margin-left: 8px;
+  cursor: help;
+}
+
+.err-tip {
+  margin-left: 8px;
+  color: @warning-color;
+  cursor: help;
+}
+
+.del-btn-icon {
+  margin-left: 8px;
+  color: @error-color;
+  cursor: pointer;
+}
+
+.group-input-container {
+  padding: 12px;
+  background: #fafafa;
+  border: 1px solid #f5f5f5;
+  border-radius: 4px;
+
+  &:not(:first-child) {
+    margin-top: 10px;
+  }
+
+  .title {
+    height: 20px;
+    color: #1e1e1e;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .add-btn {
+    color: @primary-color;
+  }
+
+  .input-container {
+    .input-item {
+      display: flex;
+      align-items: center;
+      width: 100%;
+      margin-top: 10px;
+
+      .width {
+        width: 260px;
+      }
+    }
+  }
+}

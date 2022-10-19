@@ -1,0 +1,40 @@
+.box {
+  width: 880px;
+  height: 177px;
+  padding: 40px 20px 20px 20px;
+  display: flex;
+  background-image: url(~@/assets/images/text/quot-bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+  .item-container {
+    width: 50%;
+
+    &.left {
+      padding-right: 30px;
+    }
+    &.right {
+      padding-left: 30px;
+    }
+
+    .title {
+      height: 33px;
+      text-align: center;
+      font-size: 24px;
+      font-family: PingFangSC-Medium, PingFang SC;
+      font-weight: 600;
+      color: #1e1e1e;
+      line-height: 33px;
+    }
+
+    .desc {
+      height: 78px;
+      margin-top: 5px;
+      font-size: 16px;
+      font-family: PingFangSC-Regular, PingFang SC;
+      font-weight: 400;
+      color: #1e1e1e;
+      line-height: 26px;
+    }
+  }
+}

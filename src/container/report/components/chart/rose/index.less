@@ -1,0 +1,171 @@
+.chart {
+  position: relative;
+  height: 700px;
+}
+
+.main {
+  position: relative;
+  height: 700px;
+}
+
+.wrap {
+  position: absolute;
+  z-index: 3;
+  left: 0;
+  right: 0;
+  top: 50%;
+  margin: auto;
+  transform: translateY(-50%);
+  display: inline-block;
+  width: 480px;
+  height: 480px;
+  // background-color: #000;
+}
+
+.labels {
+  .label {
+    color: #000;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: bold;
+  }
+
+  .desc {
+    font-size: 16px;
+    color: #7c7c7c;
+
+    b {
+      font-size: 24px;
+      color: #44b979;
+    }
+  }
+
+  .item1 {
+    position: absolute;
+    top: -80px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+  .item2 {
+    position: absolute;
+    top: 70px;
+    right: -190px;
+    width: 200px;
+  }
+  .item3 {
+    position: absolute;
+    top: 360px;
+    right: -190px;
+    width: 200px;
+  }
+  .item4 {
+    // position: absolute;
+    // bottom: -80px;
+    // left: 50%;
+    // transform: translateX(-50%);
+    // text-align: center;
+
+    // 下载报告兼容处理
+    padding-top: 610px;
+    text-align: center;
+  }
+  .item5 {
+    position: absolute;
+    top: 360px;
+    left: -190px;
+    width: 200px;
+    text-align: right;
+  }
+  .item6 {
+    position: absolute;
+    top: 70px;
+    left: -190px;
+    width: 200px;
+    text-align: right;
+  }
+
+  .item-disable {
+    .label {
+      color: #7c7c7c;
+    }
+    .desc {
+      vertical-align: middle;
+      color: #7c7c7c;
+
+      .icon {
+        width: 16px;
+        height: 16px;
+        vertical-align: middle;
+        margin-right: 5px;
+      }
+
+      span {
+        vertical-align: middle;
+      }
+    }
+  }
+}
+
+.zIndex2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  width: 480px;
+  height: 480px;
+  margin: auto;
+}
+
+.zIndex3 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 3;
+  width: 480px;
+  height: 480px;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.zIndex5 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 5;
+  width: 480px;
+  height: 480px;
+  margin: auto;
+}
+
+.zIndex6 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  z-index: 6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 42px;
+  height: 42px;
+  margin: auto;
+  transform: translateY(-50%);
+  font-size: 14px;
+  color: #1e1e1e;
+  background-color: #fafafa;
+  border-radius: 50px;
+  text-align: center;
+
+  b {
+    font-size: 28px;
+    color: #44b979;
+  }
+}

@@ -1,0 +1,33 @@
+.box{
+  height: 100px;
+  width: 88px;
+  position: relative;
+  .box{
+    position: absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom: 0;
+  }
+  .text{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translateY(-50%) translateX(-50%);
+    font-size: 20px;
+    width:88px;
+    text-align: center;
+    font-weight: 600;
+    color: #1E1E1E;
+    line-height: 28px;
+    &.white{
+      color: #FFFFFF;
+    }
+    &.green{
+      color: #44B979;
+    }
+    &.black{
+      color: #1E1E1E;
+    }
+  }
+}

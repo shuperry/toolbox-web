@@ -1,0 +1,48 @@
+.gauge-chart-wrapper {
+  position: relative;
+  width: 100%;
+  height: 380px;
+
+  .gauge-chart-container {
+    margin: 0 auto;
+  }
+
+  .mark-text {
+    font-size: 20px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    text-align: center;
+    line-height: 28px;
+    position: absolute;
+    width: 100%;
+    bottom: 5px;
+
+    .c-black {
+      font-weight: 400;
+      color: #1E1E1E;
+    }
+
+    .c-number {
+      font-weight: 600;
+
+      &.c-red {
+        color: #FD6E49;
+      }
+      &.c-orange {
+        color: #FFAD44;
+      }
+      &.c-yellow {
+        color: #FFCD44;
+      }
+      &.c-green {
+        color: #7CD762;
+      }
+      &.c-dark-green {
+        color: #44B979;
+      }
+    }
+
+    .mx-10 {
+      margin: 0 10px;
+    }
+  }
+}

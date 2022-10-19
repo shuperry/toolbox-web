@@ -1,0 +1,125 @@
+.positive-line-box {
+  width: 880px;
+  padding: 40px 20px 40px 0;
+  .hd {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .title {
+      font-size: 24px;
+      font-weight: 600;
+      color: #1E1E1E;
+      line-height: 33px;
+    }
+    .legend {
+      display: flex;
+      align-items: center;
+      .legend-item {
+        margin-left: 40px;
+        display: flex;
+        align-items: center;
+        font-size: 20px;
+        font-weight: 400;
+        color: #1E1E1E;
+        line-height: 26px;
+        .l-sq {
+          display: inline-block;
+          width: 20px;
+          height: 20px;
+          background: #FF8700;
+          opacity: 0.19;
+          margin-right: 10px;
+        }
+        .l-line {
+          width: 4px;
+          height: 20px;
+          background: #FFC600;
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+  .bd {
+    position: relative;
+    margin-top: 40px;
+    .line-yang {
+      position: absolute;
+      top: 0;
+      height: 100%;
+      width: 2px;
+      background-color: #FFC600;
+    }
+    .bd-item {
+      display: flex;
+      height: 32px;
+      .bd-item-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 120px;
+        height: 32px;
+        background: #F0F0F0;
+        border-radius: 3px;
+        font-size: 16px;
+        font-weight: 400;
+        color: #1E1E1E;
+        line-height: 26px;
+        margin-right: 19px;
+      }
+      .bd-item-grid {
+        position: relative;
+        flex: 1;
+        display: flex;
+        .grid-ceil {
+          flex: 1;
+          border-left: 2px #E0E0E0 solid;
+        }
+        .last-line {
+          border-left: 2px #E0E0E0 solid;
+        }
+        .model {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          width: 220px;
+          height: 32px;
+          background: #FF8700;
+          opacity: 0.19;
+        }
+        .bar {
+          position: absolute;
+          top: 8px;
+          bottom: 8px;
+          left: 2px;
+          width: 220px;
+          height: 16px;
+          background: #44B979;
+        }
+        .value {
+          position: absolute;
+          top: 3px;
+          right: 9px;
+          font-size: 16px;
+          font-weight: 600;
+          color: #1E1E1E;
+          line-height: 26px;
+        }
+      }
+    }
+    .bd-gap {
+      .bd-gap-grid {
+        height: 20px;
+        padding-left: 139px;
+        display: flex;
+        .gap-ceil {
+          flex: 1;
+          border-left: 2px #E0E0E0 solid;
+        }
+        .gap-last-line {
+          border-left: 2px #E0E0E0 solid;
+        }
+      }
+    }
+
+  }
+}

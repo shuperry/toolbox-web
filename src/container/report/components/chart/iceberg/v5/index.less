@@ -1,0 +1,127 @@
+.container {
+  padding: 40px 30px;
+
+  .mt-26 {
+    margin-top: 26px !important;
+  }
+
+  .val-line-img {
+    position: absolute;
+    z-index: 999;
+  }
+
+  .val-name-container {
+    position: absolute;
+    z-index: 999;
+
+    .val-name {
+      color: #1e1e1e;
+      font-weight: 600;
+      font-size: 16px;
+      font-family: PingFangSC-Semibold, PingFang SC;
+      line-height: 22px;
+    }
+  }
+
+  .env-text {
+    position: absolute;
+    z-index: 991;
+    height: 18px;
+    color: #1e1e1e;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: PingFangSC-Semibold, PingFang SC;
+    line-height: 18px;
+  }
+
+  .flex-container {
+    position: relative;
+    display: flex;
+
+    .ice-env-val-container {
+      .iceberg-container {
+        .iceberg-green-bg {
+          width: 430px;
+          height: 782px;
+          padding: 99px 55px;
+          background-color: #e9f7ef;
+          border: 1px solid #b5dfc8;
+          border-radius: 4px;
+
+          .iceberg-img {
+            z-index: 900;
+            width: 320px;
+            height: 584px;
+          }
+        }
+      }
+    }
+
+    .val-areas-container {
+      width: 100%;
+      margin-left: 30px;
+    }
+
+    .val-container {
+      padding: 15px 30px;
+      background: #fafafa;
+      border: 1px solid #e0e0e0;
+      border-radius: 4px;
+
+      &:not(:first-child) {
+        margin-top: 50px;
+      }
+
+      .val-title-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .title {
+          height: 33px;
+          color: #1e1e1e;
+          font-weight: 600;
+          font-size: 24px;
+          font-family: PingFangSC-Semibold, PingFang SC;
+          line-height: 33px;
+        }
+      }
+
+      .val-content-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        padding-left: 25px;
+
+        .val-item {
+          display: flex;
+          align-items: flex-start;
+          justify-content: space-between;
+
+          &:not(:first-child) {
+            margin-top: 5px;
+          }
+
+          .name {
+            width: 100px;
+            height: 22px;
+            color: #1e1e1e;
+            font-weight: 400;
+            font-size: 16px;
+            font-family: PingFangSC-Regular, PingFang SC;
+            line-height: 22px;
+          }
+        }
+      }
+    }
+  }
+
+  .tip {
+    margin-top: 20px;
+    color: #7c7c7c;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    line-height: 17px;
+  }
+}

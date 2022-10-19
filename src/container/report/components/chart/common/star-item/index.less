@@ -1,0 +1,51 @@
+.stars {
+  display: flex;
+  align-items: center;
+
+  .label {
+    font-size: 14px;
+    font-family: PingFangSC-Medium, PingFang SC;
+    font-weight: 600;
+    color: #1e1e1e;
+    line-height: 20px;
+    margin-right: 10px;
+  }
+
+  .star {
+    width: 20px;
+    height: 20px;
+
+    &:not(:first-child) {
+      margin-left: 5px;
+    }
+  }
+
+  .star-desc {
+    font-size: 14px;
+    font-family: PingFangSC-Regular, PingFang SC;
+    font-weight: 400;
+    color: #7c7c7c;
+    line-height: 20px;
+    margin-left: 10px;
+  }
+}
+
+.title {
+  font-size: 18px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 600;
+  color: #1e1e1e;
+  line-height: 25px;
+}
+
+.title-star {
+  margin-top: 15px;
+}
+
+.value-item {
+  width: 50%;
+
+  &.mt {
+    margin-top: 15px;
+  }
+}

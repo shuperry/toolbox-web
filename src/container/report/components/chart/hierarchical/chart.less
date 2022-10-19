@@ -1,0 +1,62 @@
+.loading {
+	margin: 40px auto 0 ;
+	width: 80px;
+	height: 80px;
+	position: relative;
+}
+
+.loading .progress {
+	position: absolute;
+	width: 70px;
+	height: 70px;
+	background-color: white;
+	border-radius: 50%;
+	left: 5px;
+	top: 5px;
+	line-height: 70px;
+	text-align: center;
+}
+
+.left,
+.right {
+	width: 40px;
+	height: 80px;
+	overflow: hidden;
+	position: relative;
+	float: left;
+	background-color: #e0e0e0;
+}
+
+.left {
+	border-radius: 80px 0 0 80px;
+}
+
+.right {
+	border-radius: 0 80px 80px 0;
+}
+
+.la,
+.ra {
+	content: "";
+	position: absolute;
+	display: block;
+	width: 40px;
+	height: 80px;
+	background-color: white;
+	border-radius: 80px 0 0 80px;
+	background-color: #44B979;
+}
+
+.ra {
+	content: "";
+	position: absolute;
+	display: block;
+	border-radius: 0 80px 80px 0;
+}
+.la {
+	transform-origin: right center;
+}
+
+.ra {
+	transform-origin: left center;
+}

@@ -1,0 +1,41 @@
+.pointer {
+  cursor: pointer;
+}
+
+.component-container {
+  position: relative;
+  z-index: 10;
+  padding: 20px;
+  border-radius: 4px;
+
+  &:hover {
+    /**
+    transform: translateY(-2px);
+    transition: transform 0.2s;
+    */
+    z-index: 11;
+    border: 1px solid #d9d9d9;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  &.active {
+    border: 1px solid @primary-color;
+  }
+
+  .comp-bd {
+    z-index: 10;
+    pointer-events: none;
+  }
+
+  .operations {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    z-index: 11;
+    font-size: 14px;
+
+    .del-icon {
+      color: @error-color;
+    }
+  }
+}

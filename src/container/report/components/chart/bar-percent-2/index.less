@@ -1,0 +1,45 @@
+.barPercent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 880px;
+  padding: 40px 0 32px;
+  // margin-bottom: 32px;
+
+  .title {
+    color: #1e1e1e;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .bar-bd {
+    position: relative;
+    height: 16px;
+    background: #e9e9e9;
+
+    .bar-value {
+      width: 530px;
+      height: 16px;
+      font-size: 24px;
+      background: #fcc644;
+    }
+    .bar-mask {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 8px;
+      background-image: url('~@/assets/images/report/bar_kedu.png');
+      background-size: 100%;
+    }
+  }
+  .value {
+    margin-left: 24px;
+    color: #000000;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: DINAlternate-Bold, DINAlternate;
+    line-height: 26px;
+  }
+}

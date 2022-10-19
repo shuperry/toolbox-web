@@ -1,0 +1,47 @@
+.wrapper {
+  border-radius: 4px;
+  overflow: hidden;
+  padding: 40px 0;
+  white-space: pre-line;
+}
+
+.table {
+  width: 100%;
+  border: 1px solid #e0e0e0;
+
+  th,
+  td {
+    font-size: 16px;
+    color: #1e1e1e;
+    padding: 0 30px;
+    border-top: 0;
+    border-right: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    border-left: 0;
+
+    &.align-left {
+      text-align: left;
+    }
+    &.align-center {
+      text-align: center;
+    }
+    &.align-right {
+      text-align: right;
+    }
+
+    .emoji-img {
+      width: 30px;
+      height: 30px;
+    }
+  }
+
+  .bottomRow {
+    td {
+      border-bottom: 0;
+    }
+  }
+
+  .rightColumn {
+    border-right: 0;
+  }
+}

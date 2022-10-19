@@ -1,0 +1,40 @@
+.barCode {
+  width: 880px;
+  padding: 40px 20px;
+  .bar-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+    .bar-title {
+      width: 120px;
+      color: #1e1e1e;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 22px;
+    }
+    .bar-bd {
+      position: relative;
+      flex: 1;
+      height: 20px;
+      background: #f7f7f7;
+      border-radius: 4px;
+      .bar-value {
+        width: 402px;
+        height: 20px;
+        background: #ccc;
+        border-radius: 4px 0 0 4px;
+      }
+    }
+    .value {
+      width: 64px;
+      color: #44b979;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 22px;
+      text-align: right;
+    }
+  }
+}
